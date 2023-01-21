@@ -28,7 +28,7 @@ let cw = "Computer WINS";
 
 function playRound(playerSelection, computerSelection) {              
        if (playerSelection.toLowerCase() === computerSelection) {
-           console.log("it's a tie");
+              console.log("it's a tie");
               return draw, draws++;
        } else if (playerSelection === "rock" && computerSelection === "paper"){
               console.log('you lost! rock beats paper'), computerScore++
