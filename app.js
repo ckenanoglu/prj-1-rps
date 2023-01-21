@@ -55,7 +55,8 @@ console.log( "your score " + playerScore);
 console.log("computer score " + computerScore);
 
 let score = 0;
-// TODO: start keeping score 
+// TODO: start keeping score and play multiple rounds until one reaches score 5
+
 for (let score = 0; score <1111; score++){
        let playerSelection = prompt('What would you like to pick').toLowerCase();
        let computerSelection = computerPlay();
@@ -74,9 +75,7 @@ for (let score = 0; score <1111; score++){
               console.log( "your score " + playerScore);
               console.log("computer score " +computerScore);
               console.log( "draw " + draws);
-// TODO: play multiple rounds until one reaches score 5
 
-// TODO: display the winner
 
 // TODO: reset the game
 
